@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "EmployeeManagement": {
+    "OrderManagement": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

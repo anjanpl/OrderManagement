@@ -7,22 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20190429172047_TestMigration.cs" />
-    <Compile Remove="Migrations\20190429172047_TestMigration.Designer.cs" />
-    <Compile Remove="Migrations\20190430052340_Test.cs" />
-    <Compile Remove="Migrations\20190430052340_Test.Designer.cs" />
-    <Compile Remove="Migrations\20190503063748_AddPhotoPathToEmployees.cs" />
-    <Compile Remove="Migrations\20190503063748_AddPhotoPathToEmployees.Designer.cs" />
-    <Compile Remove="Migrations\20190503072152_AddPhotoPathToEmployees.cs" />
-    <Compile Remove="Migrations\20190503072152_AddPhotoPathToEmployees.Designer.cs" />
-    <Compile Remove="Migrations\20190504053534_AddPhotoPathColumn.cs" />
-    <Compile Remove="Migrations\20190504053534_AddPhotoPathColumn.Designer.cs" />
-    <Compile Remove="Migrations\20190504065740_AddPhotoPathColumn.cs" />
-    <Compile Remove="Migrations\20190504065740_AddPhotoPathColumn.Designer.cs" />
-    <Compile Remove="Migrations\20190626060140_Extend_IdentityUser.cs" />
-    <Compile Remove="Migrations\20190626060140_Extend_IdentityUser.Designer.cs" />
-    <Compile Remove="Migrations\20220510060259_InitialMigration.cs" />
-    <Compile Remove="Migrations\20220510060259_InitialMigration.Designer.cs" />
+
   </ItemGroup>
 
   <ItemGroup>

@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using OrderManagement.Models;
 
-namespace EmployeeManagement
+namespace OrderManagement
 {
     public class Startup
     {
@@ -21,7 +21,7 @@ namespace EmployeeManagement
         {
             services.AddDbContextPool<AppDbContext>(
                 options => options.UseSqlServer(_config.GetConnectionString("OrderDBConnection")));
-           
+
             services.AddMvc().AddXmlSerializerFormatters();
 
             services.AddScoped<ISupplierRepository, SQLSupplierRepository>();
@@ -33,9 +33,9 @@ namespace EmployeeManagement
             {
                 app.UseDeveloperExceptionPage();
             }
-           
+
             app.UseStaticFiles();
-            
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
