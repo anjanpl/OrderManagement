@@ -57,8 +57,7 @@ ___
 
 <!-- Images -->
 
-![Markdown Logo]
-(https://markdown-here.com/img/icon256.png)
+![Markdown Logo](https://markdown-here.com/img/icon256.png)
 
 <!-- Github -->
 <!-- Code Blocks -->
